@@ -1,0 +1,4 @@
+streamlit
+tensorflow==2.11.0  # You can specify the version you're using
+Pillow  # For image handling
+pickle5  # If you're using Python 3.7 or older
