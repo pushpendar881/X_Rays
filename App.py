@@ -7,7 +7,7 @@ pickle_m = pickle.load(open('regmodel1.pkl', 'rb'))
 
 # Streamlit app code
 def main():
-    st.title('Image Prediction App')
+    st.title('Pneumonia Detection')
 
     # File uploader
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
